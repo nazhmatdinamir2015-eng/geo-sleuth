@@ -1,4 +1,10 @@
-<div align="center">
+from PIL import Image
+
+# Открываем фотографию
+img = Image.open("/mnt/data/1000009273.jpg")
+
+# Показываем фотографию
+img.show()<div align="center">
 
 # 🧭 geo-sleuth
 
